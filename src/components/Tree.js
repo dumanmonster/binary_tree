@@ -34,7 +34,6 @@ const Tree = () => {
         } else {
           insertNode(root, value);
           setRoot({ ...root });
-          console.log(root)
         }
       }
     };
